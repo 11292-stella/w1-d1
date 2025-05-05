@@ -9,6 +9,10 @@ public class Variabili {
         System.out.println("dammi un secondo numero");
         int b = scanner.nextInt();
         moltiplica(a,b);
+
+        String t = "benvenuto";
+        t = t + " Topo Gigio";
+        System.out.println(t);
     }
 
     public static void moltiplica(int a, int b){
